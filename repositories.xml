@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+        <name>rpi4-overlay</name>
+        <description lang="en">Unofficial portage overlay for Gentoo Linux providing ebuilds for the Raspberry Pi4</description>
+        <homepage>https://github.com/Jarodiv/rpi4-overlay</homepage>
+        <owner>
+            <name>Jarodiv</name>
+            <email>no-mail@example.com</email>
+        </owner>
+        <source type="git">https://github.com/Jarodiv/rpi4-overlay.git</source>
+        <source type="git">git://github.com/Jarodiv/rpi4-overlay.git</source>
+        <source type="git">git@github.com:Jarodiv/rpi4-overlay.git</source>
+    </repo>
+</repositories>
