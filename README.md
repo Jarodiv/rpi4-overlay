@@ -32,5 +32,5 @@ Then run `emaint -r rpi4-overlay sync`, Portage should now find and update the r
 ## Package related infos
 
 * **sys-firmware/brcm43455-firmware** [upstream](https://github.com/RPi-Distro/firmware-nonfree)
-  * Provides the firmware files for use with the RPi3 B+ / RPi 4 B's [dual-band WiFi](https://www.raspberrypi.com.tw/tag/bcm2837/) WiFi chip set (Cypress CYW43455). Also provides a more newer copy of the uploadable file `/lib/firmware/brcm/brcmfmac43455-sdio.bin`.
+  * Provides the firmware files for use with the RPi3 B+ / RPi 4 B's [dual-band WiFi](https://www.raspberrypi.com.tw/tag/bcm2837/) WiFi chip set (Cypress CYW43455). Also provides a newer copy of the uploadable file `/lib/firmware/brcm/brcmfmac43455-sdio.bin`.
   :warning: To avoid conflicts with the older version provided by [`sys-kernel/linux-firmware`](http://packages.gentoo.org/package/sys-kernel/linux-firmware), you need to emerge that package with the Use flag `savedconfig` enabled, comment out or delete the line `brcm/brcmfmac43455-sdio.bin` in the file `/etc/portage/savedconfig/sys-kernel/linux-firmware-<version>` and re-emerge the package.
