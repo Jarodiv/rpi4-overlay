@@ -20,7 +20,7 @@ SRC_URI="https://github.com/raspberrypi/linux/archive/${COMMIT}.tar.gz -> raspbe
 KEYWORDS="~arm ~arm64"
 
 # Rename to match the naming pattern for kernel sources (e.g. linux-5.9.12-rpi-p20201207)
-S="${WORKDIR}/linux-${OKV}-v8-${PATCH_VERSION}"
+S="${WORKDIR}/linux-${OKV}-rpi-${PATCH_VERSION}"
 
 src_unpack() {
 	default
